@@ -26,7 +26,7 @@ let buildMain = async () => {
 };
 let startDevServer = async () => {
   await fs.copy("./res/", "./dist/dev/res");
-  let entry = "index";
+  let entry = "Index";
   let content = getTemplate(entry);
   fs.copy("./res", "./dist/dev");
   await fs.writeFile(`./dist/dev/${entry}.html`, content);

@@ -29,3 +29,4 @@ HTMLElement.prototype.classDel = function (name) {
 HTMLElement.prototype.classHas = function (name) {
   return this.classList.contains(name);
 };
+export {};

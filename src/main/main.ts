@@ -88,9 +88,9 @@ class Main {
   }
   createMainWindow() {
     let options = this.getWinOptions();
-    options.title = "MarkKnowledge";
-    options.minHeight = 600;
-    options.minWidth = 800;
+    options.title = "知墨";
+    options.minHeight = 800;
+    options.minWidth = 1200;
     // fs.appendFileSync(path.join(app.getPath("userData"), "log.txt"),"start create window /n")
     this.win = new BrowserWindow(options);
     let serverUrl = process.argv[2];

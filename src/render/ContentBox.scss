@@ -6,6 +6,10 @@
     background: var(--bg);
     width: 160px;
   }
+  .centerBox {
+    background: var(--fore-lighter1);
+    width: 260px;
+  }
   .editorBox {
     flex: 1;
     overflow-y: auto;

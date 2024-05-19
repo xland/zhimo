@@ -1,9 +1,9 @@
 import React from "./React";
 import { eventer } from "../common/eventer";
-import "./index.scss";
+import "./Index.scss";
 import TitleBar from "./TitleBar";
 import ContentBox from "./ContentBox";
-import "./helper";
+import "./Helper";
 let App = () => {
     return (
         <>

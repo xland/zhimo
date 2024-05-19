@@ -32,7 +32,7 @@ let buildMain = async () => {
 let buildRender = async () => {
   let { sassPlugin } = require("esbuild-sass-plugin");
   await fs.copy("./res/", "./dist/prod/");
-  let entry = "index";
+  let entry = "Index";
   let content = getTemplate(entry);
   await fs.writeFile(`./dist/prod/${item}.html`, content);
   await esbuild.build({
