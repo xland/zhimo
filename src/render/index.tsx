@@ -3,6 +3,7 @@ import { eventer } from "../common/eventer";
 import "./index.scss";
 import TitleBar from "./TitleBar";
 import ContentBox from "./ContentBox";
+import "./helper";
 let App = () => {
     return (
         <>
