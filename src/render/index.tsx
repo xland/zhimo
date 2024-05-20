@@ -19,6 +19,5 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.body.setAttribute("class", "blue");
     document.body.appendChild(<App />);
     eventer.emit("domReady");
-    let { ipcRenderer } = require("electron");
-    ipcRenderer.invoke("changeWindowState", "show");
+    render.invoke("changeWindowState", "show");
 });
