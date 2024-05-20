@@ -2,7 +2,7 @@
   height: 38px;
   line-height: 38px;
   display: flex;
-  background: var(--fore-lighter2);
+  background: var(--c2);
   .TitleLabel {
     -webkit-app-region: drag;
     flex: 1;
@@ -17,7 +17,7 @@
       cursor: pointer;
       color: #888;
       &:hover {
-        background: #fff;
+        background: var(--c3);
         color: #333;
       }
     }

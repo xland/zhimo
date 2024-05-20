@@ -1,0 +1,42 @@
+.ArticleList {
+  background: var(--c1);
+  width: 260px;
+  height: 100%;
+  border-right: 1px solid var(--c6);
+  .header {
+    margin-top: 8px;
+    height: 28px;
+    line-height: 28px;
+    display: flex;
+    .searchInputBox {
+      flex: 1;
+    }
+    input {
+      height: 28px;
+      line-height: 28px;
+      padding-left: 6px;
+    }
+    .searchBtn {
+      text-align: center;
+      width: 28px;
+      background: #fff;
+      &:hover {
+        background: var(--c1);
+      }
+    }
+  }
+  .content {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    .title {
+      line-height: 28px;
+      padding-left: 8px;
+      padding-right: 8px;
+      cursor: pointer;
+      color: #666;
+      &:hover {
+        background: var(--c2);
+      }
+    }
+  }
+}

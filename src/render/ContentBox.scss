@@ -3,16 +3,6 @@
   display: flex;
   overflow-y: auto;
   height: 100%;
-  .leftBox {
-    background: var(--bg);
-    width: 160px;
-    height: 100%;
-  }
-  .centerBox {
-    background: var(--fore-lighter1);
-    width: 260px;
-    height: 100%;
-  }
   .editorBox {
     flex: 1;
     overflow-y: auto;

@@ -1,0 +1,26 @@
+.LeftBox {
+  background: linear-gradient(to bottom right, var(--c3), var(--c1));
+  width: 220px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--c6);
+  .header {
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid var(--c6);
+    .tab {
+      display: inline-block;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-right: 1px solid var(--c6);
+      cursor: pointer;
+      &:hover {
+        background: var(--c1);
+      }
+    }
+  }
+  .content {
+    flex: 1;
+  }
+}
